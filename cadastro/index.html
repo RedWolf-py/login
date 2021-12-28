@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/cadastro/icones/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/cadastro/icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/cadastro/icones/favicon-32x32.png">
+    <link rel="manifest" href="/cadastro/icones/site.webmanifestsite">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <script src="https://kit.fontawesome.com/2b7f50eb63.js" crossorigin="anonymous"></script>
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="areaCard">
+            <h1>Cadastre-se</h1>
+            <div class='sucesso'></div>
+            <div class="error"></div>
+            <div class="corrigir"></div>
+            <div class="labelImput">
+                <input type="text" id="nome" idplaceholder="" required />
+                <label id="labelnome" for="nome">Nome</label>
+            </div>
+            <div class="labelImput">
+                <input type="text" id="usuario" idplaceholder="" required />
+                <label id="labelusuario" for="usuario">Usuario</label>
+            </div>
+            <div class="labelImput">
+                <input type="password" id="senha" placeholder="" required />
+                <label id="labelsenha" for="senha">Senha</label>
+                <span class="cadeadoF"><i class="fas fa-lock"></i></span>
+                <span class="cadeadoA"><i class="fas fa-unlock"></i>
+                </span>
+            </div>
+            <div class="labelImput">
+                <input type="password" id="senharepetir" placeholder="" required />
+                <label id="labelrepetirsenha" for="Repetirsenha">Confirmar Senha</label>
+                <span class="cadeadoF2"><i class="fas fa-lock"></i></span>
+                <span class="cadeadoA2"><i class="fas fa-unlock"></i>
+                </span>
+            </div>
+            <div class="btn">
+                <button type="submit" onclick="cadastrar()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
