@@ -78,7 +78,7 @@ submyt.addEventListener('click', function() {
   
   if (loguin == usuariovalidacao.loguin && password == usuariovalidacao.senha) {
    
-    window.location.href = 'https://ale-orcamento.netlify.app/'
+    window.location.href = 'https://colab.research.google.com/github/RedWolf-py/Trabalho_Grafico/blob/main/feminicidio.ipynb'
   
   } else {
     
